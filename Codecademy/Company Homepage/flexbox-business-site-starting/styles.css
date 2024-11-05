@@ -1,0 +1,183 @@
+html, body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: #f3f3f3;
+    font-size: 22px;
+    opacity: 0.9;
+  }
+
+nav {
+    display: block;
+}
+a { 
+    text-decoration: none;
+    color: black ;
+}
+
+/*Header / Nav Bar*/
+
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 1px #c6c1c1;
+
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0.7rem;
+}
+
+ul {
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+}
+
+.nav-bar li {
+    padding-left: 2.5rem;
+}
+
+.logo {
+    flex: 1;   
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    height: 700px;
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
+    padding-top: 35px;
+}
+
+.company-name {
+    position: relative;
+    height: fit-content;
+    top: 10%;
+    left: 10%;
+    padding: 0.5rem;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    background-color: #979797;
+    opacity: 0.9;
+
+}
+
+.company-name .banner-content {
+    width: 14rem;
+    margin-top: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    /* line-height: 1.4; */
+    color: white;
+    align-content: center;
+    align-items: center;
+}
+
+/* Mission Statement */
+
+.statement {
+    padding: 5% 10%;
+    background-color:#f3f3f3;
+}
+
+.statement .content {
+    text-align: center;
+}
+
+.statement .content h3 {
+    padding: 0 20%;
+}
+
+/* Services */
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 15%;
+    background-color: #b9b5b5;
+    flex-wrap: wrap;
+}
+
+.services .service {
+    flex: 1;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f3f3f3;
+    border-radius: 10%;
+}
+.center {
+    text-align: center;
+}
+.service .image-container {
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+}
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+/* Our Team */
+
+.team {
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+    padding: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+    background-color: #979797;
+    margin: 1rem;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 10%;
+    
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+.team-container {
+    background-color: #f3f3f3;
+}
+.team-container h2 {
+    text-align: center;
+}
+
+/* Contact / copyright */
+
+footer {
+    padding: 20px;
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    
+}
+/* Special Font for Headings */
+
+.banner-content h2, .statement h2, .team-container h2, .nav-bar a {
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Own Cheat Sheet</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <h1>HTML Table Reference</h1>
+    <div class="table_ref">
+        <div class="table_tags">
+            <h2>Table Tags</h2>
+            <table>
+                <thead>
+                  <th>Tag</th>
+                  <th>Name</th>
+                  <th>Description</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="code">&lt;table&gt;</span></td>
+                    <td>Table</td>
+                    <td>The wrapper element for all HTML tables.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;thead&gt;</span></td>
+                    <td>Table Head</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;tbody&gt;</span></td>
+                    <td>Table Body</td>
+                    <td>The set of rows containing actual table data.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;tr&gt;</span></td>
+                    <td>Table Row</td>
+                    <td>The table row container.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;td&gt;</span></td>
+                    <td>Table Data</td>
+                    <td>The table row container.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;tfoot&gt;</span></td>
+                    <td>Table Foot</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="table_attributes">
+            <h2>Table Attributes</h2>
+            <table>
+                <thead>
+                  <th>Attribute</th>
+                  <th>Name</th>
+                  <th>Description</th>
+                </thead>
+                <tbody>
+                  <tr>
+                      <td><span class="code">colspan</span></td> 
+                      <td>Column Span</td>
+                      <td>Defines how many columns a td element should span.</td>
+                    </tr>
+                  <tr>
+                    <td><span class="code">rowspan</span></td>
+                    <td>Row Span</td>
+                    <td>Defines how many rows a td element should span.</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    <h1>CSS Table/Element Reference</h1>
+        <div class="color">
+            <h2>Color</h2>
+            <p>There are four ways to represent color in CSS:</p>
+            <ul>
+                <li>Named Colors - there are more than 140 named colors, which you can review <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/named-color">here on MDN</a></li>
+                <li>Hexidecimal or hex colors:</li>
+                <ul>
+                    <li>Hexadecimal is a number system that has sixteen digits, 0 to 9 followed by "A" to "F"</li>
+                    <li>Hex values always begin with <span class="code">#</span> and specify values of red, blue, and green using hexadecimal numbers such as <span class="code">#23F41A</span></li>
+                    <li>Six-digit hex values with duplicate values for each RGB value can be shorted to three digits</li>
+                </ul>
+                <li>RGB: </li>
+                <ul>
+                    <li>RGB colors use the <span class="code">rgb(-,-,-)</span> syntax with one value for red, one value for blue an done value for green</li>
+                    <li>RGB values range from 0 to 255 and look like this: <span class="code">rgb(7,210,50)</span></li>
+                </ul>
+                <li>HSL: </li>
+                <ul>
+                    <li>HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness (how light or dark a color is)</li>
+                    <li>Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: <span class="code">hsl(200,20%,50%)</span></li>
+                </ul>
+                <li>You can add <a href="">opacity</a> to color in RGB and HSL by adding a fourth value, <span class="code">a</span>, which is represented as a percentage</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Typography</h2>
+            <table>
+                <thead>
+                    <th>Attribute</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="code">font-weight</span></td>
+                        <td>Font Weight</td>
+                        <td>Defines how bold or thin the text can appear</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">font-style</span></td>
+                        <td>Font Style</td>
+                        <td>Defines whether the style of the text should be normal, italic, or oblique</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">line-height</span></td>
+                        <td>Line Height</td>
+                        <td>Defines the vertical spacing between lines of text; can be modified</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">word-spacing</span></td>
+                        <td>Word Spacing</td>
+                        <td>Defines how far apart individual words are from each other</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">letter-spacing</span></td>
+                        <td>Letter Spacing</td>
+                        <td>Defines how far apart individual letters are from each other</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">text-align</span></td>
+                        <td>Text Align</td>
+                        <td>This property changes the horizontal alignment of the text</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">@font-face</span></td>
+                        <td>Font Face</td>
+                        <td>Local fonts can be added to a document with the <span class="code">@font-face</span> property and the path to the font's source</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div>
+
+    </div>
+</body>
+</html>
