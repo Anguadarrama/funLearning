@@ -1,0 +1,155 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Navigation Bar Styles */
+
+.nav-bar { 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.9;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-item a {
+    text-decoration: underline;
+    color: seashell;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    height: 69px;
+}
+
+.nav-logo img {
+    height: 50px; /* Adjust the height as needed */
+    width: auto;  /* Maintain aspect ratio */
+    padding-left: 10px;
+}
+
+
+/*Body Styles*/
+.body {
+    padding-top: 70px;
+}
+
+.banner {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    background-image: url('images/background.jpeg');
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container { 
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+/*images*/
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+/* TEA OF THE MONTH */
+.tea-options {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.option-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.tea-of-the-month {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.totm-header {
+    text-align: center;
+}
+
+
+/*LOCATIONS*/
+.locations {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('images/locations.jpeg');
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.locations-options {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.location-container {
+    text-align: center;
+    background-color: black;
+    opacity: 1.0;
+    width: 300px;
+    margin: 15px 20px;
+}
+ 
+.locations-header {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+/*CONTACT INFO*/
+.contact-info {
+    text-align: center;
+    height: 200px;
+}
+
+/*FOOTER*/
+.footer {
+    margin-left: 20px;
+    text-align: left;
+}
